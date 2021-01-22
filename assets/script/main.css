@@ -1,0 +1,87 @@
+:root {
+    --branco: white;
+    --vermelho: #e50914;
+    --baseverde: #b8f5de;
+    --cabecalho: rgb(5, 182, 164);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+
+body {
+    background: var(--baseverde);
+    font-family: "Arial", Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    font-family: "Arial Black", TIMES;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 30px;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+main img {
+    height: 100%;
+}
+
+.centerimg {
+    height: 750px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.canvas {
+    height: 750px;
+    justify-content: center;
+}
+
+.chess {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screenRunDino {
+    d
+}
+
+.trex {
+    position: absolute;
+    bottom: 0;
+    background-image: url();
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    background: rgb(5, 182, 164);
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}

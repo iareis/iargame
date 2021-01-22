@@ -1,0 +1,46 @@
+:root {
+    --baseverde: #b8f5de;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+
+body {
+    background: var(--baseverde);
+    font-family: "Arial", Times, serif;
+    color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 5px;
+    font-family: "Arial Black", TIMES;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 30px;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
